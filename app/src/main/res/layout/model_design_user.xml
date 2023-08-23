@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="#91E1EC"
+    android:layout_margin="5dp">
+    
+    <TextView
+        android:id="@+id/idTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="ID"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="Name"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/ageTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="Age"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+</LinearLayout>
